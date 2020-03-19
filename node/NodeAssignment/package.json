@@ -1,0 +1,20 @@
+{
+  "name": "nodeassignment",
+  "version": "1.0.0",
+  "description": "NodeAssignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js"
+  },
+  "keywords": [
+    "node",
+    "task",
+    "js"
+  ],
+  "author": "Juhana Tamminen",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
