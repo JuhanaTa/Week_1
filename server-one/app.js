@@ -15,4 +15,10 @@ app.get('/catinfo', (req, res) => {
         'weight': 5,
     };
     res.json(cat);
+
+    app.get('/', (req, res) => {
+        res.json({
+            message: 'Hello World!'
+        });
+
 });
